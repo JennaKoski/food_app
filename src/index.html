@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Food tracking app</title>
+  </head>
+  <body>
+    <header>
+      <h1>Food tracker</h1>
+    </header>
+    <main>
+      <h2>Add food</h2>
+      <div class="basics">Food name:</div>
+      <form>
+        <div class="container_addFood">
+          <select class="foodSelection">
+            <option selected="selected">Select your food</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Burger">Burger</option>
+            <option value="Soup">Soup</option>
+            <option value="Salad">Salad</option>
+            <option value="Apple">Apple</option>
+            <option value="Peach">Peach</option>
+            <option value="Cider">Cider</option>
+          </select>
+        </div>
+        <div class="container_nutritional">
+          <div class="divcarbs">
+            <div class="basics">Carbs:</div>
+            <input type="number" class="carbs" placeholder="0g" />
+          </div>
+          <div class="divprotein">
+            <div class="basics">Protein:</div>
+            <input type="number" class="protein" placeholder="0g" />
+          </div>
+          <div class="divfat">
+            <div class="basics">Fat:</div>
+            <input type="number" class="fat" placeholder="0g" />
+          </div>
+          <div class="divAdd">
+            <button type="submit" class="addButton">Add food</button>
+          </div>
+        </div>
+      </form>
+      <div class="container_stats">
+        <h2>Stats</h2>
+        <canvas id="myChart" width="300" height="200"></canvas>
+      </div>
+      <div class="container_log">
+        <h2>Log</h2>
+        <div class="box_calories">
+          Total calories logged: <span class="totalCal"></span> kcal
+        </div>
+      </div>
+      <div class="box_summary"></div>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(63, 62, 62);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(31, 30, 30);
+  padding: 2rem;
+  height: 10%;
+}
+
+h1 {
+  color: rgb(53, 247, 182);
+  font-size: 3rem;
+}
+
+/* Main */
+
+/* AddFood */
+
+.container_addFood {
+  margin: 2rem;
+}
+
+h2 {
+  color: aquamarine;
+  margin: 0 0 1rem 2rem;
+  font-size: 2rem;
+}
+
+.basics {
+  font-size: 1.2rem;
+  color: rgb(170, 248, 222);
+  margin: 0 0 1rem 2rem;
+}
+
+.foodSelection {
+  border-radius: 5px;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+}
+
+.container_nutritional {
+  margin: 2rem;
+  max-width: 300px;
+}
+
+.divcarbs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carbs {
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  width: 10rem;
+}
+
+.divprotein {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.protein {
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  width: 10rem;
+}
+
+.divfat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fat {
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  width: 10rem;
+}
+
+.divAdd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addButton {
+  background-color: rgb(252, 133, 90);
+  color: rgb(241, 247, 245);
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0.6rem 2.6rem;
+  border-style: none;
+  width: 10rem;
+}
+
+.container_stats {
+  margin: 2rem;
+}
+
+#myChart {
+  color: white;
+}
+
+.container_log {
+  margin: 2rem;
+}
+
+.box_calories {
+  background-color: aquamarine;
+  color: rgb(63, 62, 62);
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
+  margin: 1rem;
+  border-radius: 7px;
+  border-width: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.box_summary {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 1rem;
+}
+
+.summary {
+  margin: 1rem;
+  width: 18rem;
+  height: 10rem;
+  padding: 1rem;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.carbsEnd {
+  margin: 0.5rem;
+}
+
+.proteinEnd {
+  margin: 0.5rem;
+}
+
+.fatEnd {
+  margin: 0.5rem;
+}
